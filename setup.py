@@ -45,4 +45,5 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=["numpy", "pyyaml", "pyhf>=0.3.2", "iminuit"],
+    extras_require=extras_require,
 )

@@ -1,10 +1,10 @@
 name: test distribution build
 on:
   push:
-    branches:
-    - master
-    tags:
-    - v*
+    # branches:
+    # - master
+    # tags:
+    # - v*
   pull_request:
     branches:
     - master
